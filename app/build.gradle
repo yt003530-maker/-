@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.halwest.keyboard'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.halwest.keyboard"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes { release { minifyEnabled false } }
+}
+dependencies {}
